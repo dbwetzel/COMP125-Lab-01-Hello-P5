@@ -1,5 +1,4 @@
-# Welcome to COMP 125 on repl.it!
-If you're seeing this, you have successfully created your account and joined up with COMP 125 @ Loyola University Chicago.
+# Welcome to COMP 125 Visual Information Processing with P5.js!
 
 In this lab, you will connect this project to the P5.js code library and run a simple P5 sketch to prove that it works. Once you have done that, submit your lab for course credit.
 
@@ -11,25 +10,14 @@ In this lab, you will connect this project to the P5.js code library and run a s
 
 `<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>`
 
-3) **Prove that it works.** Add the following code block to _script.js_ (type it this time. Don't copy and paste!):
+3) **Prove that it works.** Add the following code block to the file _script.js_ (type it this time. Don't copy and paste!):
 
-```
+``` Javascript
 function setup(){
-```
-
-```
   fill(0);
-```
-
-```
-  ellipse(50, 50, 50, 50)
-```
-
-```
+  ellipse(50, 50, 50, 50);
 }
 ```
 
-.. and press "run ->" at the top.
-
-If everything is correct, you should see a black circle on the upper left corner of the "result" window. If so, submit your work!
+If everything is correct, you should see a black circle on the upper left corner of the "webview" window.
 
